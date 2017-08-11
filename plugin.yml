@@ -1,0 +1,8 @@
+name: eHelp
+main: com.esej.eHelp.Main
+version: lite-v0.1
+commands:
+    help:
+        description: Pomoc.
+        usage: /<command>
+        aliases: pomoc
