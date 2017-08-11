@@ -26,7 +26,7 @@ public class Main extends JavaPlugin
     {
         if (cmd.getName().equalsIgnoreCase("help"))
         {
-        	tag = (ChatColor.DARK_GRAY + "[" + ChatColor.AQUA + "eHelp" + ChatColor.DARK_GRAY + "]");
+            tag = (ChatColor.DARK_GRAY + "[" + ChatColor.AQUA + "eHelp" + ChatColor.DARK_GRAY + "]");
             sender.sendMessage(tag + ChatColor.RED + " Tu w przyszlosci bedzie skonfigurowana twoja wiadomosc!");
             return true;
         }
